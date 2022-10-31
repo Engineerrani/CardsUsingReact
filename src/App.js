@@ -1,24 +1,102 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Card from './components/Card'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className="row">
+      <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
     </div>
+    <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+    <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+    <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+     </div>
+     <div className="row">
+      <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+    <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+    <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+    <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+     </div>
+     <div className="row">
+      <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+    <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+    <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+    <div className="col-3">
+      <Card 
+     title='card-title'
+     imageUrl='https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000'
+     
+     body='my name is rani ramprasad maurya i am computer science engineer i have the knowledge of the react i love the react.'/>
+    </div>
+     </div>
+    </div>
+    
   );
 }
 
