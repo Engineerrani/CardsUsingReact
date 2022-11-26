@@ -1,21 +1,21 @@
 import React from 'react';
 import './Card.css';
 
-function Card({title, imageUrl,body}) {
+function Card(props) {
   return (
 <div className="card-container">
     <div className="image-container">
-        <img src={imageUrl} alt='' />
+        <img src={props.imageUrl} alt='' />
         
     </div>
     <div className="card-content">
 
     </div>
 <div className="card-title">
-    <h3>{title}</h3>
+    <h3>{props.title}</h3>
 </div>
 <div className="card-body">
-    <p>{body}</p>
+    <p>{props.body}</p>
 </div>
 <div className='btn'>
     <button>
